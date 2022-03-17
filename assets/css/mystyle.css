@@ -1,0 +1,260 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+/* End CSS Reset */
+
+
+/* Settings */
+.container {
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-column: 3;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 16px;
+    /* line-height: 30px; */
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    /* font-size: 18px; */
+}
+
+/* End Settings */
+
+
+
+/* Nav */
+nav {
+    background-color: antiquewhite;
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar {
+    max-width: 80%;
+}
+
+.logo>p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+
+.menu>li>a {
+    font-size: large;
+    color: black;
+    padding: 10px 20px;
+}
+
+.menu>li>a:hover {
+    background-color: salmon;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+}
+
+.guest {
+    /* font-size: large; */
+    color: black;
+    padding: 10px 20px;
+}
+
+
+.guest:hover {
+    background-color: salmon;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+}
+/* End Nav */
+
+
+
+/* Main */
+main {
+    /* background-color: rgb(176, 255, 73); */
+    background-color: whitesmoke;
+}
+
+.cards {
+    width: 80%;
+    
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 50px 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 64px rgba(0, 0, 0, 0.6);
+}
+
+.card>img {
+    /* width: fit-content; */
+    width: 300px;
+    height: auto;
+}
+
+.thumbnail {
+    width: 250px;
+    height: auto;
+}
+
+.info {
+    padding: 20px;
+}
+
+.title>p {
+    font-weight: 700;
+    font-size: large;
+}
+
+.description {
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    width: 100%;
+    margin:20px 0 20px 0;
+    
+    /* width: max-content; */
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+/* End Main */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Customize CSS */
+
+/* SVG */
+.h-5 {
+    height: 1.5rem;
+}
+
+.w-5 {
+    width: 1.5rem;
+}
+/* End Customize CSS */
+
+
+/* Responsive */
+@media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .relative {
+    position: relative;
+  }
+/* End Responsive */
